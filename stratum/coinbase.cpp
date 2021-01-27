@@ -185,7 +185,7 @@ void coinbase_create(YAAMP_COIND *coind, YAAMP_JOB_TEMPLATE *templ, json_value *
 		//debuglog("%s %d dests %s\n", coind->symbol, npayees, script_dests);
 		return;
 	}
-	else if(strcmp(coind->symbol, "SHROUD") == 0)
+	else if(strcmp(coind->symbol, "SHRX") == 0)
   {
       char script_dests[2048] = { 0 };
       char script_payee[128] = { 0 };
